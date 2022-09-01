@@ -23,7 +23,7 @@ body {
 
 .name {
   color: /*#00b5cc*/ #0c0c0c;
-  font-size: 12rem;
+  font-size: 11rem;
   font-family: "Courier Prime";
   text-align: center;
   padding-bottom: 30px;
@@ -179,9 +179,10 @@ body {
 
 .text_box p {
   font-family: "Source Sans Pro";
-  font-weight: 200;
+  font-weight: 400;
   font-size: 2.5rem;
-  line-height: 1.5;
+  line-height: 1.25;
+  color: #333333;
   margin-right: 150px;
 }
 
@@ -259,7 +260,6 @@ body {
   margin: 0 auto;
   height: 100vh;
   width: 100%;
-  /* background-color: red; */
   position: relative;
   overflow: hidden;
   scroll-snap-align: start;
@@ -384,9 +384,14 @@ body {
 
 .footer_txt{
   position: absolute;
-  top: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 18px;
   color: #333333;
   font-size: 20px;
-  font-family: "Anton";
-  margin: 10rem 20rem;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
 }
