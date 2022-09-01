@@ -1,0 +1,392 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  margin-top: 9%;
+  width: 100%;
+  height: 90vh;
+}
+
+.name {
+  color: /*#00b5cc*/ #0c0c0c;
+  font-size: 12rem;
+  font-family: "Courier Prime";
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.social_icons {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.social_icon {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: #0c0c0c;
+}
+
+.social {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding: 7px;
+  border: 2px solid #0c0c0c;
+  border-radius: 50%;
+  transition: 0.2s ease-in;
+}
+
+.social:hover .social_icon {
+  color: #fff;
+}
+.social:hover {
+  background-color: #0c0c0c;
+}
+
+.scrolldown {
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-10px) translateX(-50%) rotate(45deg);
+}
+
+.scrolldown span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid #0c0c0c;
+  border-right: 3px solid #0c0c0c;
+  border-bottom-right-radius: 4px;
+  animation: animate 1.5s linear infinite;
+  opacity: 0%;
+}
+
+.scrolldown span:nth-child(1) {
+  transform: translate(-10px, -10px);
+  animation-delay: 0.4s;
+}
+.scrolldown span:nth-child(2) {
+  transform: translate(0, 0);
+  animation-delay: 0.2s;
+}
+.scrolldown span:nth-child(3) {
+  transform: translate(10px, 10px);
+  animation-delay: 0s;
+}
+
+@keyframes animate {
+  0% {
+    top: -5px;
+    left: -5px;
+    opacity: 0%;
+  }
+  25% {
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+  }
+  100% {
+    top: 5px;
+    left: 5px;
+    opacity: 0;
+  }
+}
+
+.html {
+  color: red;
+  font-size: 4rem;
+  margin-right: 10px;
+}
+
+.css {
+  color: blue;
+  font-size: 4rem;
+  margin-right: 10px;
+}
+
+.js {
+  color: orange;
+  font-size: 4rem;
+  margin-right: 10px;
+}
+
+.java {
+  color: red;
+  font-size: 4.5rem;
+  margin-right: 10px;
+}
+
+.java,
+.aws {
+  margin-right: 15px;
+}
+
+.autodesk,
+.flutter {
+  margin-right: 10px;
+}
+
+.aws {
+  height: 30px;
+  width: 45px;
+}
+
+.java {
+  height: 50px;
+  width: 30px;
+}
+
+.skills li {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #0c0c0c;
+  font-family: "Source Sans Pro";
+  list-style: none;
+  margin: 15px 0px 15px 225px;
+}
+
+.skills li:nth-child(1),
+.skills li:nth-child(7) {
+  padding-left: 225px;
+}
+
+.skills li:nth-child(2),
+.skills li:nth-child(6) {
+  padding-left: 150px;
+}
+
+.skills li:nth-child(3),
+.skills li:nth-child(5) {
+  padding-left: 75px;
+}
+
+.text_box p {
+  font-family: "Source Sans Pro";
+  font-weight: 200;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-right: 150px;
+}
+
+.text_box h2 {
+  font-size: 7rem;
+  letter-spacing: 3px;
+  font-family: "Anton";
+  color: #d3d3d3;
+  margin-bottom: 10px;
+}
+
+.about_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+}
+
+.things {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: clip;
+}
+
+.transition {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: circle(200px at center center);
+}
+
+.inner-text {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  z-index: 1;
+  font-size: 10vw;
+  font-family: "Anton";
+  color: #fff;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.outer-text {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  z-index: -1;
+  font-size: 10vw;
+  font-family: "Anton";
+  color: #0c0c0c;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  justify-self: center;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+  /* background-color: red; */
+  position: relative;
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+
+.fa-circle {
+  font-size: 10px;
+  color: #333333;
+}
+
+.left {
+  margin-left: 30px;
+  margin-right: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.head {
+  font-family: "Anton";
+  font-size: 8rem;
+  letter-spacing: 2px;
+  color: #d3d3d3;
+}
+
+.type {
+  margin-bottom: 50px;
+  font-family: "Source Sans Pro";
+  font-size: 2.5rem;
+  color: #333333;
+}
+
+.number {
+  margin-top: 50px;
+  font-family: "Anton";
+  font-size: 3.5rem;
+  color: #333333;
+}
+
+.middle {
+  margin-left: 25px;
+  padding-bottom: 150px;
+}
+
+.left h4 {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 2rem;
+  color: #333333;
+}
+
+.left p {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 1.25;
+  color: #333333;
+}
+
+.tech_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.right {
+  position: relative;
+  margin-top: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.box {
+  position: relative;
+}
+
+.box2 {
+  margin-top: 250px;
+}
+.box3 {
+  margin-top: -250px;
+  z-index: -1;
+}
+.box4 {
+  margin-top: -50px;
+  z-index: -1;
+}
+
+.space {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.divider {
+  height: 1px;
+  background-color: #333333;
+}
+
+.projects_container {
+  width: 100%;
+  height: 100%;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.footer_divider{
+  margin-top: 10px;
+  height: 8px;
+  background-color: #ababab;
+}
+
+.wrapper_footer{
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.footer_txt{
+  position: absolute;
+  top: 170px;
+  color: #333333;
+  font-size: 20px;
+  font-family: "Anton";
+  margin: 10rem 20rem;
+}
