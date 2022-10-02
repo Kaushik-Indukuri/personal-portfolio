@@ -182,7 +182,7 @@ body {
   font-weight: 400;
   font-size: 2.5rem;
   line-height: 1.25;
-  color: #333333;
+  color: #22272c;
   margin-right: 150px;
 }
 
@@ -267,7 +267,7 @@ body {
 
 .fa-circle {
   font-size: 10px;
-  color: #333333;
+  color: #0c0c0c;
 }
 
 .left {
@@ -290,14 +290,14 @@ body {
   margin-bottom: 50px;
   font-family: "Source Sans Pro";
   font-size: 2.5rem;
-  color: #333333;
+  color: #22272c;
 }
 
 .number {
   margin-top: 50px;
   font-family: "Anton";
   font-size: 3.5rem;
-  color: #333333;
+  color: #22272c;
 }
 
 .middle {
@@ -309,7 +309,7 @@ body {
   font-family: "Source Sans Pro";
   font-weight: 600;
   font-size: 2rem;
-  color: #333333;
+  color: #22272c;
 }
 
 .left p {
@@ -317,7 +317,7 @@ body {
   font-weight: 400;
   font-size: 2.5rem;
   line-height: 1.25;
-  color: #333333;
+  color: #22272c;
 }
 
 .tech_list {
@@ -369,17 +369,13 @@ body {
   overflow-y: scroll;
 }
 
-.footer_divider{
-  margin-top: 10px;
-  height: 8px;
-  background-color: #ababab;
-}
-
 .wrapper_footer{
   position: relative;
   justify-content: center;
   text-align: center;
   margin-top: 100px;
+  background-color: #22272c;
+  padding: 32px;
 }
 
 .footer_txt{
@@ -390,7 +386,7 @@ body {
   right: 0;
   text-align: center;
   bottom: 18px;
-  color: #333333;
+  color: #fff;
   font-size: 20px;
   font-family: "Source Sans Pro";
   font-weight: 400;
