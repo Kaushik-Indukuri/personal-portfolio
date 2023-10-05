@@ -22,7 +22,9 @@ body {
 }
 
 .name {
-  color: /*#00b5cc*/ #0c0c0c;
+  color:
+    /*#00b5cc*/
+    #0c0c0c;
   font-size: 11rem;
   font-family: "Courier Prime";
   text-align: center;
@@ -52,6 +54,7 @@ body {
 .social:hover .social_icon {
   color: #fff;
 }
+
 .social:hover {
   background-color: #0c0c0c;
 }
@@ -81,10 +84,12 @@ body {
   transform: translate(-10px, -10px);
   animation-delay: 0.4s;
 }
+
 .scrolldown span:nth-child(2) {
   transform: translate(0, 0);
   animation-delay: 0.2s;
 }
+
 .scrolldown span:nth-child(3) {
   transform: translate(10px, 10px);
   animation-delay: 0s;
@@ -96,11 +101,13 @@ body {
     left: -5px;
     opacity: 0%;
   }
+
   25% {
     top: 0px;
     left: 0px;
     opacity: 1;
   }
+
   100% {
     top: 5px;
     left: 5px;
@@ -128,6 +135,12 @@ body {
 
 .java {
   color: red;
+  font-size: 4.75rem;
+  margin-right: 10px;
+}
+
+.react {
+  color: #60dbfd;
   font-size: 4.5rem;
   margin-right: 10px;
 }
@@ -137,7 +150,7 @@ body {
   margin-right: 15px;
 }
 
-.autodesk,
+.flutter,
 .flutter {
   margin-right: 10px;
 }
@@ -325,6 +338,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  /* margin-left: 5px; */
   margin-top: 15px;
 }
 
@@ -343,10 +357,12 @@ body {
 .box2 {
   margin-top: 250px;
 }
+
 .box3 {
   margin-top: -250px;
   z-index: -1;
 }
+
 .box4 {
   margin-top: -50px;
   z-index: -1;
@@ -369,7 +385,7 @@ body {
   overflow-y: scroll;
 }
 
-.wrapper_footer{
+.wrapper_footer {
   position: relative;
   justify-content: center;
   text-align: center;
@@ -378,7 +394,7 @@ body {
   padding: 32px;
 }
 
-.footer_txt{
+.footer_txt {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
