@@ -136,7 +136,7 @@ body {
 .java {
   color: red;
   font-size: 4.75rem;
-  margin-right: 10px;
+  margin-right: 18px;
 }
 
 .react {
@@ -145,7 +145,13 @@ body {
   margin-right: 10px;
 }
 
-.java,
+.node {
+  color: #8fc618;
+  font-size: 4.5rem;
+  margin-right: 10px;
+}
+
+
 .aws {
   margin-right: 15px;
 }
@@ -155,9 +161,16 @@ body {
   margin-right: 10px;
 }
 
+.python {
+  margin-right: 5px;
+  height: 53px;
+  width: 53px;
+}
+
 .aws {
-  height: 30px;
+  height: 35px;
   width: 45px;
+  padding-top: 5px;
 }
 
 .java {
